@@ -1,0 +1,16 @@
+{
+  "org": "BobbyTG-Organization",
+  "repos": [
+    "BobbyTG-Organization/throughline-prototype"
+  ],
+  "productionEnvironments": ["production", "prod"],
+  "thresholds": {
+    "epicCandidate": { "openDays": 30, "minLinkedPrs": 3 },
+    "zombieDays": 30,
+    "agingBucketsDays": [7, 30, 90]
+  },
+  "site": {
+    "title": "Throughline",
+    "noindex": true
+  }
+}

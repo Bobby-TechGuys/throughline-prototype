@@ -1,0 +1,13 @@
+# Build output: published by the workflow, never committed
+site/
+
+# Local secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+node_modules/
